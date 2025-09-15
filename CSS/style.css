@@ -256,3 +256,77 @@ dd{
 .soft>p>svg{
     color: rgb(45, 241, 45);
 }
+
+
+/* contact */
+
+.conHead>h1{
+    color: #38bdf8;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 32px;
+}
+.conHead>p{
+    text-align: center;
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+    color: #cbd5e1;
+    font-weight: 400;
+}
+.contactIn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+#mycontact{
+    border: 2px solid #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+}
+#mycontact>p,label{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #38bdf8;
+}
+#mycontact>p>span{
+    font-family: "inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #f8fafc;
+}
+#mycontact>p>span>a{
+    color:#f8fafc;
+}
+#mycontact>p>span>a:active{
+    color: #0ea5e9;
+}
+#fromconta>form>input{
+    background-color: #1e293b;
+    color: #f8fafc;
+    border: 1px solid #38bdf8;
+    font-family: "inter", sans-serif;
+    font-weight: 400;
+}
+#fromconta>form>button{
+    background-color: #38bdf8;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    border-radius: 16px;
+    padding: 12px 24px;
+
+}
+#fromconta{
+    padding: 30px;
+    border: 2px solid #ffffff;
+    border-radius: 16px;
+}
+form{
+    line-height: 1.6;
+    display: grid;
+    grid-template-columns: 180px 190px ;
+    gap: 7px;
+    
+}
